@@ -1,0 +1,39 @@
+
+.menu ul{
+  margin-left:400px;
+}
+.menu ul li {
+    list-style:none;
+    display:inline-block;
+    font-weight:bold;
+    font-family: 'proxima-nova', sans-serif;
+    line-height:80px;
+    text-align: center;
+    color:white;
+}
+.left img{
+    width:85px;
+    position:absolute;
+    left:12%;
+    top:6px;
+}
+.menu{
+
+    height:80px;
+    width:100%;
+    background-color:rgba(0,0,0,0.8);
+}
+.menu ul li a{
+    color:white;
+    text-decoration:none;
+    padding:5px 10px;
+    transition: .4s;
+}
+
+.menu ul li a.active,
+.menu ul li a:hover{
+    background:white;
+    border-radius:2px;
+    color:black;
+    border:2px;
+}

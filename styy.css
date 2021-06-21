@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+body{
+    background:url('img/login3.jpg') no-repeat;
+     background-size: 100% 120%;
+     height: 100vh;
+    width: 100%;
+}
+.login-form{
+    width:350px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    color:#fff;
+    color:black;
+    margin-top:30px;
+}
+.login-form h1{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    margin:30px,10px;
+}
+.login-form p{
+    font-margin:20px;
+    margin:15px 0;
+    font-weight:bold;
+}
+.login-form input{
+    font-size: 16px;
+    width:100%;
+    padding:15px 10px;
+    border:0;
+    outline:none;
+    border-radius:5px;
+}
+.login-form button{
+    font-size:18px;
+    font-weight:bold;
+    margin:20px 0;
+    padding:10px 15px;
+    width:49%;
+}
+.menu{
+    height:80px;
+    width:100%;
+    background-color:rgba(0,0,0,0.8);
+}
+.menu ul{
+  margin-left:560px;
+}
+.menu ul li {
+    list-style:none;
+    display:inline-block;
+    font-weight:bold;
+    font-family: 'proxima-nova', sans-serif;
+    line-height:80px;
+    text-align: center;
+    color:white;
+}
+.left img{
+    width:85px;
+    position:absolute;
+    left:12%;
+    top:6px;
+}
+.menu{
+    height:80px;
+    width:100%;
+    background-color:rgba(0,0,0,0.8);
+}
+.menu ul li a{
+    color:white;
+    text-decoration:none;
+    padding:5px 10px;
+    transition: .4s;
+}
+
+.menu ul li a.active,
+.menu ul li a:hover{
+    background:white;
+    border-radius:2px;
+    color:black;
+    border:2px;
+}
